@@ -50,7 +50,7 @@ Sostituisci l’URL con quello del tuo repository. Il caricamento su GitHub cons
 
 Usa un hosting statico con comando di build `npm ci && npm run build` e cartella pubblica `dist`.
 
-I percorsi delle risorse sono relativi e supportano GitHub Pages sotto il percorso della repository. La cartella pubblicabile su Pages è `docs`.
+I percorsi delle risorse sono relativi e supportano GitHub Pages sotto il percorso della repository. Il workflow GitHub Actions pubblica la cartella `dist`.
 
 Prima di cambiare dominio aggiorna in `index.html` i valori Open Graph `og:url` e `og:image`. La versione attuale contiene `noindex,nofollow`: rimuovilo solo quando i contenuti sono approvati e vuoi consentire l’indicizzazione.
 
@@ -79,8 +79,8 @@ Non è concessa con questo archivio alcuna esclusiva sulle fotografie o sui marc
 
 ## GitHub Pages
 
-Il sito è predisposto per GitHub Pages nella cartella `docs`, con percorsi relativi. In Settings → Pages seleziona Deploy from a branch, ramo `main`, cartella `/docs`, poi Save.
+Il sito viene pubblicato dal workflow `.github/workflows/deploy-pages.yml`. In Settings → Pages mantieni selezionato **GitHub Actions**.
 
-Dopo ogni modifica esegui `npm ci` e `npm run build`, quindi carica anche `docs` aggiornato. `dist` resta disponibile per altri hosting statici.
+Ogni push su `main` avvia installazione delle dipendenze, compilazione React/Tailwind e pubblicazione su Pages. Puoi anche avviare il workflow dalla scheda Actions tramite Run workflow. Non occorre caricare manualmente i file compilati. La cartella `docs` resta una copia compilata utilizzabile come alternativa.
 
-Indirizzo previsto: https://biscoooo.github.io/Lulu-Bolle-Coccole-/
+Indirizzo del sito: https://biscoooo.github.io/Lulu-Bolle-Coccole-/
