@@ -50,7 +50,7 @@ Sostituisci l’URL con quello del tuo repository. Il caricamento su GitHub cons
 
 Usa un hosting statico con comando di build `npm ci && npm run build` e cartella pubblica `dist`.
 
-I percorsi delle risorse partono da `/assets/`, quindi il sito è configurato per essere servito dalla radice del dominio. Per GitHub Pages sotto `/nome-repository/` occorre adattare i percorsi delle risorse prima del deploy; non è incluso un workflow Pages automatico.
+I percorsi delle risorse sono relativi e supportano GitHub Pages sotto il percorso della repository. La cartella pubblicabile su Pages è `docs`.
 
 Prima di cambiare dominio aggiorna in `index.html` i valori Open Graph `og:url` e `og:image`. La versione attuale contiene `noindex,nofollow`: rimuovilo solo quando i contenuti sono approvati e vuoi consentire l’indicizzazione.
 
@@ -76,3 +76,11 @@ Le fotografie sono illustrative e non rappresentano clienti, ambienti o risultat
 - Immagini illustrative: Unsplash, identificate nel file `ASSETS.md`.
 
 Non è concessa con questo archivio alcuna esclusiva sulle fotografie o sui marchi dell’attività. Sostituisci le fotografie con materiali originali autorizzati prima della consegna definitiva se richiesto dal cliente.
+
+## GitHub Pages
+
+Il sito è predisposto per GitHub Pages nella cartella `docs`, con percorsi relativi. In Settings → Pages seleziona Deploy from a branch, ramo `main`, cartella `/docs`, poi Save.
+
+Dopo ogni modifica esegui `npm ci` e `npm run build`, quindi carica anche `docs` aggiornato. `dist` resta disponibile per altri hosting statici.
+
+Indirizzo previsto: https://biscoooo.github.io/Lulu-Bolle-Coccole-/
