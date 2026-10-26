@@ -1,0 +1,1 @@
+{"name":"lulu-bolle-coccole","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"react":"19.2.0","react-dom":"19.2.0","esbuild":"0.25.11","tailwindcss":"4.1.16","@tailwindcss/cli":"4.1.16"}}

@@ -1,0 +1,10 @@
+// Abilitare soltanto dopo conferma esplicita dell'attività.
+export const business={name:'Lulù Bolle&Coccole',phone:'+39 320 486 1180',whatsappVerified:false,whatsapp:'https://wa.me/393204861180',maps:'https://maps.app.goo.gl/vseyC8BnQ2AJwHuL9'};
+export const services=[
+['Bagno e asciugatura','Una pausa di freschezza per il tuo amico a quattro zampe.','care','water'],
+['Cura del mantello','Spazzolatura e attenzione al pelo, per ritrovare leggerezza.','dog','comb'],
+['Taglio e riassetto','Parliamo del taglio più adatto al pelo del tuo cane.','pup','scissors'],
+['Cura delle unghie','Un piccolo gesto di cura da valutare insieme.','cat','paw'],
+['Toelettatura cani','Ogni mantello ha le sue esigenze. Raccontaci quelle del tuo cane.','happy','paw'],
+['Toelettatura gatti','Informazioni sulla cura del pelo del tuo compagno felino.','cat','heart']];
+export const faqs=[['Posso portare il mio gatto?','La toelettatura per gatti è menzionata nelle recensioni pubbliche. Contatta il negozio per confermare disponibilità e modalità per il tuo gatto.'],['Quali trattamenti sono disponibili?','Bagno, cura del mantello e delle unghie sono descritti nelle recensioni pubbliche. Chiedi al negozio conferma del trattamento più adatto; taglio e riassetto devono essere confermati direttamente.'],['Come posso richiedere informazioni?','Il numero indicato nelle directory è +39 320 486 1180. Il collegamento WhatsApp verrà attivato dopo la conferma dell’attività. Puoi consultare la scheda Google dal link nei contatti.'],['Quanto dura una toelettatura?','La durata dipende dal mantello, dalla taglia e dalle esigenze dell’animale. Contatta l’attività per conoscere tempi e costi del trattamento.'],['Come vengono gestiti gli animali particolarmente timidi?','Descrivi al negozio il carattere, le abitudini e le sensibilità del tuo animale. Modalità e condizioni del trattamento vanno concordate direttamente con la titolare.'],['Dove si trova il negozio?','In Via Testona 4, 10127 Torino TO. Nella sezione contatti trovi il collegamento a Google Maps per le indicazioni.']];
