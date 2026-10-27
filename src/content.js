@@ -8,3 +8,22 @@ export const services=[
 ['Toelettatura cani','Ogni mantello ha le sue esigenze. Raccontaci quelle del tuo cane.','happy','paw'],
 ['Toelettatura gatti','Informazioni sulla cura del pelo del tuo compagno felino.','cat','heart']];
 export const faqs=[['Posso portare il mio gatto?','La toelettatura per gatti è menzionata nelle recensioni pubbliche. Contatta il negozio per confermare disponibilità e modalità per il tuo gatto.'],['Quali trattamenti sono disponibili?','Bagno, cura del mantello e delle unghie sono descritti nelle recensioni pubbliche. Chiedi al negozio conferma del trattamento più adatto; taglio e riassetto devono essere confermati direttamente.'],['Come posso richiedere informazioni?','Il numero indicato nelle directory è +39 320 486 1180. Il collegamento WhatsApp verrà attivato dopo la conferma dell’attività. Puoi consultare la scheda Google dal link nei contatti.'],['Quanto dura una toelettatura?','La durata dipende dal mantello, dalla taglia e dalle esigenze dell’animale. Contatta l’attività per conoscere tempi e costi del trattamento.'],['Come vengono gestiti gli animali particolarmente timidi?','Descrivi al negozio il carattere, le abitudini e le sensibilità del tuo animale. Modalità e condizioni del trattamento vanno concordate direttamente con la titolare.'],['Dove si trova il negozio?','In Via Testona 4, 10127 Torino TO. Nella sezione contatti trovi il collegamento a Google Maps per le indicazioni.']];
+
+// Trascrizioni degli screenshot Google forniti dall’utente. Nessuna data dedotta.
+export const reviews = [
+  {
+    "theme": "Gentilezza",
+    "author": "Anna C.",
+    "text": "Ho portato il mio energico Bau Rio, la proprietaria professionale dolcissima e attenta a tutte le caratteristiche del mio cane, esperienza fantastica senza stress. Torneremo a farci coccolare."
+  },
+  {
+    "theme": "Professionalità",
+    "author": "Chiara B.",
+    "text": "Brava,professionale! Locale pulito e a vista...mi è piaciuto tanto,specie la tranquillità con cui subito dopo sono andata a riprendere la mia pelosetta!\nCi tornerò senz' altro!\nAnche Milly ringrazia!"
+  },
+  {
+    "theme": "Sensibilità",
+    "author": "jigyasa yoga",
+    "text": "Abbiamo portato la nostra gattina rossa, che in genere è diffidente , invece si è fatta lavare, tagliare le unghie, pettinare... Devo dire che ho apprezzato la professionalità, la sensibilità, e la cura della proprietà del negozio. Consiglio di rivolgersi a loro. I prezzi dei trattamenti sono contenuti ... Sono sicura che tornerò con la mia gattina..."
+  }
+];

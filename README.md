@@ -64,7 +64,7 @@ In `src/content.js`, `whatsappVerified` è impostato su `false`. Tutte le CTA co
 - Disponibilità dei servizi, soprattutto taglio e riassetto, e orari.
 - Abilitazione WhatsApp del numero +39 320 486 1180.
 - Dati fiscali e informativa privacy definitiva per l’hosting scelto.
-- Recensioni direttamente su Google: il sito usa sintesi attribuite a una fonte terza, non citazioni letterali o valutazioni inventate.
+- Le recensioni sono trascritte dagli screenshot Google forniti dall’utente. I cognomi sono abbreviati e non sono state dedotte date. Il nome profilo «jigyasa yoga» è mantenuto così come mostrato.
 
 Le fotografie sono illustrative e non rappresentano clienti, ambienti o risultati dell’attività. Il marchio tipografico e la palette sono proposte provvisorie.
 
@@ -72,7 +72,7 @@ Le fotografie sono illustrative e non rappresentano clienti, ambienti o risultat
 
 - Google Maps fornito: https://maps.app.goo.gl/vseyC8BnQ2AJwHuL9
 - Contatti e orari: https://firmania.it/torino/lul%C3%B9-bollecoccole-5438023
-- Recensioni riportate: https://toelettaturapro.com/pro/toelettatura/lulu-bollecoccole-torino
+- Recensioni: screenshot della scheda Google forniti dall’utente; gli screenshot non sono inclusi nel sito o nella repository.
 - Immagini illustrative: Unsplash, identificate nel file `ASSETS.md`.
 
 Non è concessa con questo archivio alcuna esclusiva sulle fotografie o sui marchi dell’attività. Sostituisci le fotografie con materiali originali autorizzati prima della consegna definitiva se richiesto dal cliente.
